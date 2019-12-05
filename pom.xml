@@ -59,6 +59,10 @@
         <groupId>com.google.cloud.tools</groupId>
         <artifactId>appengine-maven-plugin</artifactId>
         <version>${appengine.maven.plugin.version}</version>
+        <configuration>
+                <project>datastreaming-237207</project>
+                <version>cloudbuild</version>
+            </configuration>
       </plugin>
     </plugins>
   </build>
